@@ -1,0 +1,61 @@
+button {
+    position: relative;
+    top:0px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 114 189 / var(--tw-bg-opacity));
+    /* padding: 0.25rem 1.5rem; */
+    padding: 1rem 4rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    border-width: 4px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(0 114 189 / var(--tw-border-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .2s;
+    font-family: IBM Plex Sans,sans;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    box-shadow: 0 0 24px #0079f2;
+    border-radius: 0.375rem;
+    /* font-size: .75rem; */
+    font-size: 3rem;
+    line-height: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    top:-5px;
+}
+
+button:active {
+    top:-10px;
+    background-color: rgb(0 100 150 / var(--tw-bg-opacity));
+}
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,142,255,1) 100%);
+color: white;
+font-size: 2rem;
+font-family: IBM Plex Sans,sans;
+/* font-style: bold; */
+}
+
+.cont {
+    height: 50;
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.ee {
+    transition: all 0.5s ease;
+    color: red;
+    opacity: 0;
+}
